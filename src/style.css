@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Lobster&family=Manrope:wght@800&family=Splash&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Lobster&family=The+Nautigal:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #161a1d;
+    font-family: Lobster, Finlandica;
+}
+
+.game-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+.board {
+
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+
+
+}
+
+.board-background {
+    background-color: white;
+    padding: 0px;
+    position: relative;
+    margin: 30px;
+
+}
+
+.board p {
+    margin-bottom: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.square {
+    width: 150px;
+    height: 150px;
+    background-color: #161a1d;
+    border: 3px solid white;
+    font-size: 90px;
+    font-family: Splash;
+    color: white;
+    margin: 0;
+    /* margin-bottom: 4px;
+    margin-left: 4px; */
+    border: none;
+
+}
+
+
+
+.row {
+    display: flex;
+
+}
+
+.row:nth-child(2) {
+    background-color: aliceblue;
+}
+
+.status {
+    margin-top: 20px;
+    margin-bottom: 5px;
+
+}
+
+.line {
+    background-color: rgb(247, 252, 252);
+    position: absolute;
+    border-radius: 7px;
+}
+
+.line-one {
+    width: 10px;
+    height: 480px;
+    left: 150px;
+    top: -15px;
+}
+
+.line-two {
+    width: 10px;
+    height: 480px;
+    right: 150px;
+    top: -15px;
+}
+
+.line-three {
+    width: 480px;
+    height: 10px;
+    top: 150px;
+    left: -15px;
+}
+
+.line-four {
+    width: 480px;
+    height: 10px;
+    bottom: 150px;
+    left: -15px;
+}
