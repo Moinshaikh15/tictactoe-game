@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 let startingBoard = new Array(3).fill(0).map((el) => new Array(3).fill(' '));
 
-let move = 0;
+
 // let historyObj = {};
 function Game() {
 
