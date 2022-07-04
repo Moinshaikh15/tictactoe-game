@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Lobster&family=Manrope:wght@800&family=Splash&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Finlandica:ital@1&family=Lobster&family=The+Nautigal:wght@700&display=swap');
 
@@ -15,7 +14,7 @@ body {
 .game-container {
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     text-align: center;
     margin: 10px;
@@ -67,9 +66,9 @@ body {
 
 }
 
-.row:nth-child(2) {
+/* .row:nth-child(2) {
     background-color: aliceblue;
-}
+} */
 
 .status {
     margin-top: 20px;
@@ -109,4 +108,21 @@ body {
     height: 10px;
     bottom: 150px;
     left: -15px;
+}
+
+.history-container{
+    display: flex;
+    flex-direction: column;
+}
+.history-btn {
+  padding: 15px;
+  width: 200px;
+  margin: 5px;
+  background-color: #161a1d;
+  color: white;
+  font-family:Lobster ;
+  font-size: 20px;
+  box-shadow: 3px 3px 7px 0px #0000008c;
+  border: none;
+  border-radius: 2px;
 }
